@@ -1,0 +1,17 @@
+{
+    "name": "tedbandi/test-task",
+    "authors": [
+        {
+            "name": "Стас",
+            "email": "jein-ment@list.ru"
+        }
+    ],
+    "require": {
+      "php" : ">= 7.1"
+    },
+    "autoload" :{
+        "psr-4" : {
+            "Logger\\" : "./classes"
+        }
+    }
+}
